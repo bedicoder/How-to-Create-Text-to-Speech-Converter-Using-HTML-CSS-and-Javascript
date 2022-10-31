@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fdc7fd;
+  text-rendering: optimizeSpeed;
+  padding: 2em;
+  color: #252525;
+}
+.wrapper {
+  max-width: 34rem;
+  margin: auto;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  padding: 2em;
+}
+h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+.area {
+  margin-top: 3em;
+}
+.area textarea {
+  display: block;
+  width: 100%;
+  background-color: #f0ffe8;
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: #252525;
+  padding: 1em;
+  margin-bottom: 1em;
+  resize: vertical;
+  border-radius: 1rem;
+  outline: 0;
+  border: 0;
+}
+::placeholder {
+  font-size: 1.4rem;
+  color: #6c6c6c;
+}
+.btn {
+  display: block;
+  width: 100%;
+  padding: 1em;
+  border-radius: 1rem;
+  background-color: #5a7a49;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 700;
+  cursor: pointer;
+  user-select: none;
+  border: 0;
+  outline: 0;
+}
